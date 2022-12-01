@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Name* :</td>
+                <td><input type="text" placeholder="First"> <input type="text" placeholder="Last"></td>
+            </tr>
+            <tr>
+                <td>Phone :</td>
+                <td><input type="number" ></td>
+            </tr>
+            <tr>
+                <td>Email* :</td>
+                <td><input type="email" placeholder="abc@gmail.com"></td>
+            </tr>
+            <tr>
+                <td>Address :</td>
+                <td><input type="text" placeholder="House No."> <input type="text" placeholder="StreetName"></td>
+            </tr>
+            <tr>
+                <td>Country :</td>
+                <td>
+                    <select>
+                    <option></option>
+                    <option>India</option>
+                    <option>Australia</option>
+                    <option>New Zealand</option>
+                    <option>Canada</option>
+                    <option>Russia</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>Membership Plans* :</td>
+                <td>
+                    <input id="Standard($200/Year)" type="radio" name="Comments" value="Standard($200/Year)" checked>
+                    <label for=" Standard($200/Year)"> Standard($200/Year)</label>
+                    <input id="Silver($400/Year)" type="radio" name="Comments" value="Silver($400/Year)">
+                    <label for=" Silver($400/Year)"> Silver($400/Year)</label>
+                    <input id="Gold($600/Year)" type="radio" name="Comments" value="Gold($600/Year)">
+                    <label for="Gold($600/Year)"> Gold($600/Year)</label>
+                   
+                </td>
+            </tr>
+            <tr>
+                <td>Comments :</td>
+                <td><textarea rows="4" col="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Terms of Service* :</td>
+                <td><input type="checkbox"> I agree to the terms of service.</td>
+            </tr>
+            <tr>
+                <td>Click to Become a Member:</td>
+                <td><input type="submit" value="BECOME MEMBER"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
